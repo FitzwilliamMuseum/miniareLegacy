@@ -1,0 +1,111 @@
+/* Region: Element Styles */
+
+body {
+    background-color: #c4c4c4;
+    height: 100%;
+}
+
+a {
+    color: #e9c66e;
+    text-decoration: none;
+}
+
+a img {
+    border: 0;
+}
+
+/* EndRegion */
+
+/* Region: Class Styles */
+
+.ImageCaption {
+    color: #e9c66e;
+    margin-top: 40px;
+    font-size: 11pt;
+    text-align: left;
+}
+
+.GoldText {
+    color: #e9c66e;
+}
+
+.TitleParagraph {
+    color: #e9c66e;
+    font-family: 'Palatino Linotype';
+    font-size: 14pt;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* EndRegion */
+
+/* Region: Named Element Styles */
+
+#Page {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Palatino Linotype';
+    font-size: 12pt;
+    margin: auto;
+    padding: 40px;
+    width: 920px;
+}
+
+#DivLeft {
+    float: left;
+    padding: 0;
+    width: 180px;
+}
+
+#DivLeft p a {
+    font-family: 'Palatino Linotype';
+    font-size: 14pt;
+    text-transform: uppercase;
+}
+
+#DivLeft p a:hover {
+    color: #ffffff;
+}
+
+#DivRight {
+    float: right;
+    padding: 0;
+    text-align: justify;
+    width: 700px;
+}
+
+#DivBottom {
+    clear: both;
+}
+
+#Header {
+    border-collapse: collapse;
+    color: #e9c66e;
+    font-size: 14pt;
+    text-transform: uppercase;
+    width: 710px;
+}
+
+#Header hr {
+    color: #00008b;
+}
+
+#Header span {
+    font-size: 18pt;
+}
+
+#Header .MiniareCell {
+    color: #ffffff;
+    font-size: 28pt;
+    padding: 0px 20px 0px 0px;
+    vertical-align: bottom;
+    width: 100px;
+}
+
+#Header .MiniareCell a {
+    color: #ffffff;
+}
+
+/* EndRegion */
